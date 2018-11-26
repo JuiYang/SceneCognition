@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SceneDetection</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- SpeechDialog -->
+    <string name="title1">请按一下T惠购键，然后说话吧</string>
+    <string name="title2">正在识别...</string>
+    <string name="title3">最终识别为:</string>
+    <string name="autumn">秋景</string>
+    <string name="autumn_key">落叶，黄色的树叶</string>
+    <string name="sky_key">蓝天，白云</string>
+    <string name="forest_key">绿色，树木</string>
+    <string name="desert_key">黄沙，沙丘，骆驼</string>
+
+    <!-- 你正在观看视频，需要帮您切换至视频检索吗 -->
+
+</resources>

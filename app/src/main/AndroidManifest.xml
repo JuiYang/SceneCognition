@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tcl.recognize.mace"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="000300"
+    android:versionName="0.3.00">
+
+
+    <!--
+    Rt95:    android:versionCode="000600"
+    Am6c:    android:versionCode="000600"
+    Ms801:   android:versionCode="020600"
+    Ms901:   android:versionCode="060600"
+    Mt55:    android:versionCode="070600"
+    -->
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <permission
+        android:name="com.tcl.recognize.CHANNEL_RECOGNIZE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:name="com.tcl.recognize.util.CaughtException"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.tcl.recognize.tv.RecognizeService"
+            android:permission="com.tcl.recognize.CHANNEL_RECOGNIZE" >
+            <intent-filter>
+                <action android:name="com.tcl.recognize.tv.RECOGNIZE" />
+                <action android:name="com.tcl.recognize.tv.RECOGNIZESERVICE" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.tcl.recognize.tv.StartupReceiver" >
+            <intent-filter>
+                <action android:name="com.tcl.showmode.action.START_RECOGNITION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tcl.showmode.action.STOP_RECOGNITION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tcl.recognize.tv.action.OUTPUT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.tcl.messagebox.MessageforThird.InputSource" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+
+</manifest>

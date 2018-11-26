@@ -1,0 +1,11 @@
+autumn scenery:Fallen leaves, yellow leaves
+desert:yellow sand, sand dunes, camel(s)
+forest:forest, green tree(s)
+grassland:grass, green
+mountain:stone, green trees
+lake or ocean:lake, ocean, sea
+others:others
+person:face, skin, body
+sky:blue sky, white clouds
+snow scene:snow, white, snow mountain
+sports scene:competition, sports

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="host">http://tclicon5.ifmis.huan.tv</string>
+    <string name="host_upgrade">http://tclicon.upgrade.huan.tv</string>
+    <string name="recognize_mode_upgrade_host">http://thirdapp.appstore.huan.tv/service/servlet/upgradeapp</string>     
+    <string name="config">/v5/device/config</string>
+    <string name="configThirdApp">/v5/thirdParty/config</string>
+    <string name="request">/v5/logoIdentify/request</string>
+    <string name="report">/v5/logoIdentify/report</string>
+    <string name="uploadLogo">/v5/device/upload</string>  
+    <string name="upgrade">/upgrade-v4/api/v1/upgrade</string>
+
+    <!--
+    <string name="host">http://tclicon4.ifmis.huan.tv</string>
+    <string name="host_upgrade">http://tclicon.upgrade.huan.tv</string>
+    <string name="recognize_mode_upgrade_host">http://thirdapp.appstore.huan.tv/service/servlet/upgradeapp</string>
+    <string name="fing_request_host">http://54.222.247.174:8800/logoidentify-api/v5/identify/request</string>
+    <string name="report_host">http://54.222.247.174:8800/logoidentify-api/v5/identify/report</string>
+    <string name="config">/v4/identify/config</string>
+    <string name="configThirdApp">/v4/app/config</string>
+    <string name="request">/v4/identify/request</string>
+    <string name="result">/v4/identify/result</string>
+    <string name="report">/v4/identify/report</string>
+    <string name="uploadLogo">/v4/bow/pic/upload</string>
+    <string name="upgrade">/upgrade/api/v1/upgrade</string>
+    -->
+    <!--
+    <string name="host">http://121.201.96.246</string>
+    <string name="host_upgrade">http://121.201.96.246/logoidentify-web-0.6</string>
+    <string name="config">/v4/identify/config</string>
+    <string name="configThirdApp">/v4/app/config</string>
+    <string name="request">/v4/identify/request</string>
+    <string name="result">/v4/identify/result</string>
+    <string name="report">/v4/identify/report</string>
+    <string name="uploadLogo">/v4/bow/pic/upload</string>
+    <string name="upgrade">/upgrade/api/v1/upgrade</string>
+    -->
+    <!--
+    <string name="host">http://Tcl-ifmis-499660323.cn-north-1.elb.amazonaws.com.cn/logoidentify-api</string>
+    <string name="host_upgrade">http://upgrade-1261281347.cn-north-1.elb.amazonaws.com.cn</string>
+    <string name="config">/api/v1/logoidentify/config</string>
+    <string name="search">/api/v1/logoidentify/search</string>
+    <string name="result">/api/v1/logoidentify/result</string>
+    <string name="upgrade">/upgrade/api/v1/upgrade</string>
+    -->
+
+</resources>
